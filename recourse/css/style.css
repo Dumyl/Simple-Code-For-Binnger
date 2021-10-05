@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #dfe4ea;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.box-nav ul li a.active {
+    color: #f0932b;
+}
+
+/* = = = = = header = = = = = */
+header {
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-bottom: 50px;
+}
+
+.main-nav {
+    height: 80px;
+}
+
+.box-nav {
+    text-transform: uppercase;
+}
+
+.box-nav h1 {
+    color: #f0932b;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.box-nav ul {
+    list-style: none;
+    float: right;
+}
+
+.box-nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.box-nav ul li a {
+    color: #202124;
+    text-decoration: none;
+    border-bottom: 2px solid #1e90ff;
+    border-bottom-style: none;
+}
+
+.box-nav ul li a:hover {
+    border-bottom-style: solid;
+}
+
+.row h2 {
+    color: #f0932b;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row .para {
+    color: #efeff7;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+/* = = = = = article = = = = = */
+
+.box-1 {
+    width: 100%;
+    height: 100vh;
+}
+
+.ar-box h3 {
+    padding-top: 50px;
+    color: rgb(17, 16, 16);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.article-box {
+    background-color: #8395a7;
+    border: 1px solid rgb(66, 66, 235);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.article-box img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transform: scale(1.01);
+}
+
+.article-box img:hover {
+    transform: scale(1);
+}
+
+.article-box p {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+/* = = = = = article = = = = = */
+
+.about {
+    margin-top: 30px;
+    height: 100vh;
+}
+
+.box-2 img {
+    width: 100%;
+    padding-top: 130px;
+}
+
+.box-3 h3 {
+    text-align: center;
+    padding-top: 270px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.box-3 p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+/* = = = = = subscride = = = = = */
+.subs {
+    margin-top: 20px;
+}
+
+.subs h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+}
+
+.subs p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.subs .fill {
+    text-align: center;
+}
+
+.subs input {
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+.btn {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn a {
+    font-size: 20px;
+    color: rgb(19, 15, 15);
+    text-decoration: none;
+    border: 1px solid #2e86de;
+    border-radius: 10px;
+    padding: 2px 10px;
+    background-color: #576574;
+}
+
+.btn a:hover {
+    background-color: #48dbfb;
+}
+
+/* = = = = = footer = = = = = */
+footer {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
